@@ -72,3 +72,4 @@ class Model_Settings extends Model
 		return count($results) > 0 ? $results[0]->value : NULL;
 	}
 }
+// End of Model Settings

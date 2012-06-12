@@ -1,6 +1,6 @@
 ## Introduction
 
-Kohana Settings module allows seamless integration of configuration items stored in database, into a Kohana application. The module does not expose any new API, method or classes (However, you can modify the model provided with the module as you like).
+Kohana Settings module allows seamless integration of configuration items stored in database, into a Kohana application. The module does not expose any new API, method or classes (However, you can modify the model provided with the module for additional functionality).
 
 The beauty of this module is that you can continue to use Kohana's flat file configuration, and put dynamically changing settings into database and use them transparently in your application. At any time if you want to use flat file config instead of using database, you can do so without modifying any application code at all. 
 
