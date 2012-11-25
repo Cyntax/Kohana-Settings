@@ -1,3 +1,5 @@
+> This branch contains code that is compatible for use Leap ORM. Please use the master branch for code compatible with plain Kohana DB module.
+
 ## Introduction
 
 Kohana Settings module allows seamless integration of configuration items stored in database, into a Kohana application. The module does not expose any new API, method or classes (However, you can modify the model provided with the module for additional functionality).
