@@ -64,7 +64,7 @@ class Model_Settings extends Model
 	public function get($name)
 	{
 		$results = DB::select()
-			->from('config')
+			->from('settings')
 			->where('name', '=', $name)
 			->as_object()
 			->execute();
