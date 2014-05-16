@@ -1,0 +1,23 @@
+{
+	"name": "cyntax/kohana-settings",
+	"type": "kohana-module",
+	"description": "A Kohana module for storing configuration values in the database.",
+	"homepage": "http://code.cyntaxtech.com/modules/kohana-settings",
+	"license": "BSD-3-Clause",
+	"keywords": ["kohana", "configuration", "database", "config", "settings"],
+	"authors": [
+		{
+			"name": "Cyntax Technologies (Cyntax)",
+			"homepage": "http://cyntaxtech.com",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"forum": "http://discourse.kohanaframework.org",
+		"irc": "irc://irc.freenode.net/kohana",
+		"source": "https://github.com/Cyntax/Kohana-Settings"
+	},
+	"require": {
+		"kohana/core": "3.3.*"
+	}
+}
