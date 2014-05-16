@@ -61,7 +61,7 @@ class Model_Settings extends Model
 	}
 	
 	// retrieve a single configuration item
-	public function get($name)
+	public function get($name, $default = NULL)
 	{
 		$results = DB::select()
 			->from('settings')
@@ -69,7 +69,7 @@ class Model_Settings extends Model
 			->as_object()
 			->execute();
 
-		return count($results) > 0 ? $results[0]->value : NULL;
+		return count($results) > 0 ? $results[0]->value : $default;
 	}
 }
 // End of Model Settings
